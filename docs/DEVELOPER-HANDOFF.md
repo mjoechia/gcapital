@@ -52,7 +52,7 @@ The palette is an interpretation of the supplied logo image, not a formal brand 
 
 ### Our Services (`/services`)
 - Investments
-- Trading
+- Funding
 - Mergers & Acquisitions
 - Descriptive copy is intentionally broad and must be checked against actual business activities and regulatory permissions before launch.
 

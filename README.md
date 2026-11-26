@@ -6,7 +6,7 @@ A five-page, responsive corporate website starter for **G Capital Resource Pte. 
 
 - `/` — Home
 - `/about` — About Us
-- `/services` — Investments, Trading, Mergers & Acquisitions
+- `/services` — Investments, Funding, Mergers & Acquisitions
 - `/approach` — Our Approach
 - `/contact` — Contact form
 

@@ -1,5 +1,5 @@
 import React from 'react';
-type Props = { name: 'arrow'|'chart'|'globe'|'handshake'|'compass'|'shield'|'menu'|'close'|'mail'|'pin'|'clock' };
+type Props = { name: 'arrow'|'chart'|'globe'|'handshake'|'compass'|'shield'|'menu'|'close'|'mail'|'pin'|'clock'|'funding' };
 export default function Icon({ name }: Props) {
   const common = { width: 22, height: 22, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.5, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const, 'aria-hidden': true as const };
   const paths: Record<Props['name'], React.ReactNode> = {
@@ -13,6 +13,7 @@ export default function Icon({ name }: Props) {
     close: <><path d="m6 6 12 12M18 6 6 18"/></>,
     mail: <><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></>,
     pin: <><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></>,
+    funding: <><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></>,
     clock: <><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></>
   };
   return <svg {...common}>{paths[name]}</svg>;
